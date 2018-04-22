@@ -5,7 +5,7 @@ ifdef::env-github[]
 :caution-caption: :fire:
 :warning-caption: :warning:
 endif::[]
-:spring-boot-version: 1.5.9
+:spring-boot-version: 1.5.12
 
 = Enhancing with Metrics
 
@@ -352,11 +352,11 @@ Create the class `io.pivotal.cloudnativespring.FlappingHealthIndicator` and into
 ----
 package io.pivotal.cloudnativespring;
 
-import java.util.Random;
-
 import org.springframework.boot.actuate.health.Health;
 import org.springframework.boot.actuate.health.HealthIndicator;
 import org.springframework.stereotype.Component;
+
+import java.util.Random;
 
 @Component
 public class FlappingHealthIndicator implements HealthIndicator {
