@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: cloud-native-spring-ui
+
+security:
+  basic:
+    enabled: false
