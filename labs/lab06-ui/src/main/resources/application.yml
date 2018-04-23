@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: cloud-native-spring-ui
+
+
+security:
+  basic:
+    enabled: false
+
+feign:
+  hystrix:
+    enabled: true
