@@ -56,7 +56,7 @@ CN-Workshop:
 │   │   ├── cloud-native-spring
 ----
 
-. Rename `application.properties` to `application.yml`
+. Rename `src/main/resources/application.properties` to `src/main/resources/application.yml`
 +
 Spring Boot uses the `application.properties`/`application.yml` file to specify various properties which configure the behavior of your application.  By default, Spring Initializr (start.spring.io) creates a project with an `application.properties` file, however, throughout this workshop we will be https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-external-config.html#boot-features-external-config-yaml[using YAML instead of Properties].
 +
