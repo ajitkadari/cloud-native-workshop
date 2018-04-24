@@ -100,7 +100,7 @@ public class CloudNativeSpringApplication {
 }
 ----
 
-. Add the following request handler to the class `CloudNativeSpringApplication`
+. Add the following request handler to the class `CloudNativeSpringApplication` and import org.springframework.web.bind.annotation.RequestMapping.
 +
 .cloud-native-spring/src/main/java/io/pivotal/cloudnativespring/CloudNativeSpringApplication.java
 [source,java,numbered]
